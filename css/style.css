@@ -1,0 +1,113 @@
+.bgGradient {
+    background: linear-gradient(to bottom, #1c4661, #0d2d42);
+    padding-top: 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: 10px 30px 15px 30px;
+}
+
+.navbar-nav li:hover{
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.eclipse {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.eclipse:hover {
+    transition: all 1s ease;
+    filter: grayscale(0);
+    opacity: 100;
+}
+
+#result {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#result ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#result li {
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.bgSun {
+    background-image: url('../images/eclipseSolar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgMoon {
+    background-image: url('../images/eclipseLunar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infoBG {
+    background-image: url('../images/infoBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dropdown {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#eclipses {
+    font-weight: bold;
+    padding-bottom: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#eclipses li {
+    padding-bottom: 10px;
+}
+
+.fixed-height {
+    height: 575px; /* Set a fixed height for the containers */
+    width: 500px; /* Set a fixed width for the containers */
+    margin: 0 10px; /* Add margin for spacing between containers */
+    overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+}
+
+.content {
+    padding: 15px;
+}
+
+.collapse .p-1 {
+    text-align: justify;
+}
