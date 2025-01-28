@@ -22,7 +22,7 @@ Si deseas ejecutarlo localmente:
 
 1. Clona este repositorio:
    ```bash
-   git clone [[URL del repositorio]](https://github.com/UliVazquez/Ecliptic-Discovery)
+   git clone https://github.com/UliVazquez/Ecliptic-Discovery
    ```
 2. Navega al directorio del proyecto:
    ```bash
